@@ -181,5 +181,6 @@ def load_existing_index() -> VectorStoreIndex:
     # 加载前必须确保模型已初始化，因为加载过程需要知道如何处理 embeddings
     storage_context = StorageContext.from_defaults(persist_dir=Config.PERSIST_DIR)
     index = load_index_from_storage(storage_context, show_progress=True)
-    print("✅ 索引加载成功")
+    print("索引加载成功")
+
     return index
