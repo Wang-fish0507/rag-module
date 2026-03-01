@@ -1,4 +1,4 @@
-# app.py
+
 import os
 
 # Import necessary functions and config
@@ -102,4 +102,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
